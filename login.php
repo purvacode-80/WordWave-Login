@@ -59,7 +59,7 @@ if (isset($_POST['login'])) {
             $_SESSION['user'] = $user['username'];
             $_SESSION['user_id'] = $user['id'];
             //echo "Login Successfully...";
-            header("Location: D:\VS_Codes\Project\Homepage-PW\homepage.html");
+            header("Location:https://wordwave-ai.netlify.app/");
             exit();
         } else {
             echo "Incorrect password!";
